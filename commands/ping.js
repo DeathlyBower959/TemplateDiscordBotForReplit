@@ -4,7 +4,7 @@ module.exports = {
     name: 'ping',
     description: "Gets the latency of the bot!",
     autoDelete: "True",
-    execute(message, args, Discord) {
+    execute(message, args, Discord, bot) {
 
         const timeTaken = Date.now() - message.createdTimestamp;
         const pingEmbed = new MessageEmbed()
