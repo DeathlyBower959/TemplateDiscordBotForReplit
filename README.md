@@ -1,1 +1,3 @@
 # TemplateDiscordBotForReplit
+
+Here you go!
