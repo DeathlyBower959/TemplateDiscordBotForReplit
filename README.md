@@ -1,6 +1,6 @@
 # TemplateDiscordBotForReplit
 
-**SETUP**
+**Setup**
 - Go to https://replit.com
 - Create an account
 - Click `New repl`
@@ -13,13 +13,16 @@
 - Click Add new secret
 - On the top click run, and wait for everything to install
 
-**NEW COMMAND**
+
+**New Command**
 - Create a new.js file in the commands folder
 - Paste [this](https://srcb.in/GUoLYSsCOf) into the file
 - Change the name value to the name of the file without the .js at the end.
 - Set the description to whatever you like
 - Write your code inside the execute function
 
+
+**The Variables**
 message = The message that was sent
 args = Array that contains all text after the command, or arguments
 Discord = the Discord library
