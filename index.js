@@ -15,9 +15,12 @@ const fs = require('fs');
 // New command collection
 bot.commands = new Discord.Collection();
 
+// Prefix
+prefix = "PREFIX"
+
 let array = []
 
-//Assigns names to all commands so we can call them later
+// Assigns names to all commands so we can call them later
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
@@ -26,7 +29,7 @@ for (const file of commandFiles) {
     bot.commands.set(command.name, command);
 }
 
-//Runs when bot is online
+// Runs when bot is online
 bot.once('ready', () => {
     console.log('Bot is online!');
     console.log('-------------------------')
@@ -35,6 +38,7 @@ bot.once('ready', () => {
     });
 });
 
+// Runs when the bot detects a message was sent
 bot.on('message', message => {
   
   // Makes sure message sent isnt by a bot or that the message starts with prefix
