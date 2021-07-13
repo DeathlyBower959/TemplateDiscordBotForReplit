@@ -1,8 +1,7 @@
 # TemplateDiscordBotForReplit
 
-- Go to replit.com
+- Go to https://replit.com
 - Create an account
 - Click `New repl`
-- Click Import from Github
 - Paste this link <https://github.com/DeathlyBower959/TemplateDiscordBotForReplit>
-- Click import from github
+- Click `Import from Github`
