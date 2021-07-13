@@ -30,7 +30,7 @@ for (const file of commandFiles) {
 bot.once('ready', () => {
     console.log('Bot is online!');
     console.log('-------------------------')
-    client.user.setActivity('description', {
+    bot.user.setActivity('description', {
       type: 'PLAYING'
     });
 });
@@ -55,4 +55,4 @@ bot.on('message', message => {
 });
 
 keepAlive();
-client.login(process.env.TOKEN);
+bot.login(process.env.TOKEN);
