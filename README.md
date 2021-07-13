@@ -1,6 +1,6 @@
 # TemplateDiscordBotForReplit
 
-1.) Go to replit.com
+1.) Go to replit.com\n
 2.) Create an account
 3.) Then click `New repl`
 4.) Click Import from Github
