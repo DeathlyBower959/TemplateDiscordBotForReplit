@@ -2,7 +2,7 @@ const express = require('express');
 const server = express();
 
 server.all('/', (req, res) => {
-  res.send(date.getMonth() + ":" + date.getDay() + ":" + date.getFullYear() + " | " + strTime)
+  res.send(date.getMonth() + ":" + date.getDay() + ":" + date.getFullYear() + " | " + strTime);
 })
 
 var date = new Date();
